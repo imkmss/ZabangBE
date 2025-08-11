@@ -1,37 +1,57 @@
+# HELP file
 HELP.md
-.gradle
+
+# Build tools
+.gradle/
 build/
+target/
+classes/
+
+# Gradle wrapper
 !gradle/wrapper/gradle-wrapper.jar
+
+# Maven wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Keep nested build/bin/out folders
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### NetBeans ###
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.out/
+bin/
+.vscode/
+
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Archives
+*.jar
+*.war
+*.ear
+
+# Backup
+*~
