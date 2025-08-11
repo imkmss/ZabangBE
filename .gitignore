@@ -1,0 +1,36 @@
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# Java build output
+target/
+build/
+classes/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# JAR / WAR / EAR
+*.jar
+*.war
+*.ear
+
+# Backup files
+*~
